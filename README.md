@@ -44,10 +44,10 @@ pytest --html=report.html -v -s
   Fills out the login form with predefined user credentials.
   Asserts successful login by checking for specific elements or text on the post-login page.
 
-**Page Object Classes
-****SignupPage**
+**Page Object Classe**
+SignupPage
 signup_page.py: Methods to load the signup page, fill out the signup form, and verify the presence of specific texts or elements after form submission.
-**LoginPage**
+LoginPage
 login_page.py: Methods to load the login page, fill out the login form, and verify the presence of specific texts or elements after form submission.
 
 
